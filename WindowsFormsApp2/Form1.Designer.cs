@@ -40,12 +40,12 @@
             this.Night_1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toursBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tiuDataSet2 = new WindowsFormsApp2.TiuDataSet2();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox_INFORMATION = new System.Windows.Forms.GroupBox();
             this.nght = new System.Windows.Forms.Label();
             this.nm = new System.Windows.Forms.Label();
             this.dt = new System.Windows.Forms.Label();
             this.cntr = new System.Windows.Forms.Label();
-            this.ctdpt = new System.Windows.Forms.Label();
+            this.ct_dpt = new System.Windows.Forms.Label();
             this.Night = new System.Windows.Forms.TextBox();
             this.prc = new System.Windows.Forms.Label();
             this.change = new System.Windows.Forms.Button();
@@ -59,21 +59,21 @@
             this.cancel = new System.Windows.Forms.Button();
             this.add = new System.Windows.Forms.Button();
             this.delete = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox_SEARCH = new System.Windows.Forms.GroupBox();
             this.srch = new System.Windows.Forms.Label();
             this.reset = new System.Windows.Forms.Button();
             this.Search_bt = new System.Windows.Forms.Button();
             this.Search = new System.Windows.Forms.TextBox();
             this.toursTableAdapter = new WindowsFormsApp2.TiuDataSet2TableAdapters.ToursTableAdapter();
             this.save = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureTUI = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.search_results)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TuiTour)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.toursBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiuDataSet2)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox_INFORMATION.SuspendLayout();
+            this.groupBox_SEARCH.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureTUI)).BeginInit();
             this.SuspendLayout();
             // 
             // search_results
@@ -171,29 +171,29 @@
             this.tiuDataSet2.DataSetName = "TiuDataSet2";
             this.tiuDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // groupBox1
+            // groupBox_INFORMATION
             // 
-            this.groupBox1.Controls.Add(this.nght);
-            this.groupBox1.Controls.Add(this.nm);
-            this.groupBox1.Controls.Add(this.dt);
-            this.groupBox1.Controls.Add(this.cntr);
-            this.groupBox1.Controls.Add(this.ctdpt);
-            this.groupBox1.Controls.Add(this.Night);
-            this.groupBox1.Controls.Add(this.prc);
-            this.groupBox1.Controls.Add(this.change);
-            this.groupBox1.Controls.Add(this.Name);
-            this.groupBox1.Controls.Add(this.Date);
-            this.groupBox1.Controls.Add(this.Country);
-            this.groupBox1.Controls.Add(this.City_dpt);
-            this.groupBox1.Controls.Add(this.Price);
-            this.groupBox1.Location = new System.Drawing.Point(13, 446);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(410, 221);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Информация о туре";
+            this.groupBox_INFORMATION.Controls.Add(this.nght);
+            this.groupBox_INFORMATION.Controls.Add(this.nm);
+            this.groupBox_INFORMATION.Controls.Add(this.dt);
+            this.groupBox_INFORMATION.Controls.Add(this.cntr);
+            this.groupBox_INFORMATION.Controls.Add(this.ct_dpt);
+            this.groupBox_INFORMATION.Controls.Add(this.Night);
+            this.groupBox_INFORMATION.Controls.Add(this.prc);
+            this.groupBox_INFORMATION.Controls.Add(this.change);
+            this.groupBox_INFORMATION.Controls.Add(this.Name);
+            this.groupBox_INFORMATION.Controls.Add(this.Date);
+            this.groupBox_INFORMATION.Controls.Add(this.Country);
+            this.groupBox_INFORMATION.Controls.Add(this.City_dpt);
+            this.groupBox_INFORMATION.Controls.Add(this.Price);
+            this.groupBox_INFORMATION.Location = new System.Drawing.Point(13, 446);
+            this.groupBox_INFORMATION.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox_INFORMATION.Name = "groupBox_INFORMATION";
+            this.groupBox_INFORMATION.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox_INFORMATION.Size = new System.Drawing.Size(410, 221);
+            this.groupBox_INFORMATION.TabIndex = 3;
+            this.groupBox_INFORMATION.TabStop = false;
+            this.groupBox_INFORMATION.Text = "Информация о туре";
             // 
             // nght
             // 
@@ -235,15 +235,15 @@
             this.cntr.TabIndex = 8;
             this.cntr.Text = "Страна назначения";
             // 
-            // ctdpt
+            // ct_dpt
             // 
-            this.ctdpt.AutoSize = true;
-            this.ctdpt.Location = new System.Drawing.Point(8, 73);
-            this.ctdpt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.ctdpt.Name = "ctdpt";
-            this.ctdpt.Size = new System.Drawing.Size(138, 17);
-            this.ctdpt.TabIndex = 6;
-            this.ctdpt.Text = "Город отправления";
+            this.ct_dpt.AutoSize = true;
+            this.ct_dpt.Location = new System.Drawing.Point(8, 73);
+            this.ct_dpt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ct_dpt.Name = "ct_dpt";
+            this.ct_dpt.Size = new System.Drawing.Size(138, 17);
+            this.ct_dpt.TabIndex = 6;
+            this.ct_dpt.Text = "Город отправления";
             // 
             // Night
             // 
@@ -380,20 +380,20 @@
             this.delete.UseVisualStyleBackColor = false;
             this.delete.Click += new System.EventHandler(this.delete_Click);
             // 
-            // groupBox2
+            // groupBox_SEARCH
             // 
-            this.groupBox2.Controls.Add(this.srch);
-            this.groupBox2.Controls.Add(this.reset);
-            this.groupBox2.Controls.Add(this.Search_bt);
-            this.groupBox2.Controls.Add(this.Search);
-            this.groupBox2.Location = new System.Drawing.Point(805, 446);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(271, 221);
-            this.groupBox2.TabIndex = 10;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Поиск";
+            this.groupBox_SEARCH.Controls.Add(this.srch);
+            this.groupBox_SEARCH.Controls.Add(this.reset);
+            this.groupBox_SEARCH.Controls.Add(this.Search_bt);
+            this.groupBox_SEARCH.Controls.Add(this.Search);
+            this.groupBox_SEARCH.Location = new System.Drawing.Point(805, 446);
+            this.groupBox_SEARCH.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox_SEARCH.Name = "groupBox_SEARCH";
+            this.groupBox_SEARCH.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox_SEARCH.Size = new System.Drawing.Size(271, 221);
+            this.groupBox_SEARCH.TabIndex = 10;
+            this.groupBox_SEARCH.TabStop = false;
+            this.groupBox_SEARCH.Text = "Поиск";
             // 
             // srch
             // 
@@ -456,15 +456,15 @@
             this.save.UseVisualStyleBackColor = false;
             this.save.Click += new System.EventHandler(this.save_Click);
             // 
-            // pictureBox1
+            // pictureTUI
             // 
-            this.pictureBox1.Image = global::WindowsFormsApp2.Properties.Resources._321__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 13);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1056, 117);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureTUI.Image = global::WindowsFormsApp2.Properties.Resources._321__1_;
+            this.pictureTUI.Location = new System.Drawing.Point(13, 13);
+            this.pictureTUI.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureTUI.Name = "pictureTUI";
+            this.pictureTUI.Size = new System.Drawing.Size(1056, 117);
+            this.pictureTUI.TabIndex = 0;
+            this.pictureTUI.TabStop = false;
             // 
             // Form1
             // 
@@ -473,45 +473,45 @@
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1089, 675);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox_SEARCH);
             this.Controls.Add(this.delete);
             this.Controls.Add(this.save);
             this.Controls.Add(this.add);
             this.Controls.Add(this.cancel);
             this.Controls.Add(this.save_change);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.groupBox_INFORMATION);
+            this.Controls.Add(this.pictureTUI);
             this.Controls.Add(this.TuiTour);
             this.Controls.Add(this.search_results);
             this.Margin = new System.Windows.Forms.Padding(4);
-            //this.Name = "Form1";
+            this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.search_results)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TuiTour)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.toursBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tiuDataSet2)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox_INFORMATION.ResumeLayout(false);
+            this.groupBox_INFORMATION.PerformLayout();
+            this.groupBox_SEARCH.ResumeLayout(false);
+            this.groupBox_SEARCH.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureTUI)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureTUI;
         private System.Windows.Forms.DataGridView search_results;
         private System.Windows.Forms.DataGridView TuiTour;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox_INFORMATION;
         private System.Windows.Forms.Label nght;
         private System.Windows.Forms.Label nm;
         private System.Windows.Forms.Label dt;
         private System.Windows.Forms.Label cntr;
         private System.Windows.Forms.Label prc;
-        private System.Windows.Forms.Label ctdpt;
+        private System.Windows.Forms.Label ct_dpt;
         private System.Windows.Forms.TextBox Night;
         private System.Windows.Forms.TextBox Name;
         private System.Windows.Forms.TextBox Date;
@@ -524,7 +524,7 @@
         private System.Windows.Forms.Button add;
         private System.Windows.Forms.Button save;
         private System.Windows.Forms.Button delete;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox_SEARCH;
         private System.Windows.Forms.Button reset;
         private System.Windows.Forms.Button Search_bt;
         private System.Windows.Forms.TextBox Search;
